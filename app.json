@@ -17,9 +17,6 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
-    "experiments": {
-      "baseUrl": "/sca-demo"
-    },
     "web": {
       "bundler": "metro",
       "output": "single",

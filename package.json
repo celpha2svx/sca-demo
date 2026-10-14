@@ -21,7 +21,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "expo export --platform web",
-    "deploy": "npm run build:web && touch dist/.nojekyll && gh-pages -d dist -t"
+    "deploy": "npm run build:web && vercel --prod",
+    "deploy:github": "npm run build:web && touch dist/.nojekyll && gh-pages -d dist -t"
   },
   "private": true,
   "devDependencies": {
